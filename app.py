@@ -19,7 +19,7 @@ def get_info():
     current_time = current_utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Get the GitHub URL of the file being run
-    file_url = f'https://github.com/Nalito/hngx-task1/blob/main/code.py'
+    file_url = f'https://github.com/Nalito/hngx-task1/blob/main/app.py'
 
     # Get the GitHub URL of the full source code
     source_code_url = 'https://github.com/Nalito/hngx-task1'
