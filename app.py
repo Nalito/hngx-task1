@@ -13,10 +13,10 @@ def get_info():
     # Get current day of the week
     currentday = datetime.datetime.utcnow().strftime('%A')
 
-    current_utc_time = datetime.datetime.utcnow()
+    current_utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Format the current time as a string in the desired format
-    current_time = current_utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
+    #current_time = current_utc_time.strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Get the GitHub URL of the file being run
     file_url = f'https://github.com/Nalito/hngx-task1/blob/main/app.py'
