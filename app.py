@@ -28,7 +28,7 @@ def get_info():
     response = {
    'slack_name' : slackname,
    'current_day' : currentday,
-   'utc_time' : current_time,
+   'utc_time' : current_utc_time,
    'track' : track_,
    'github_file_url' : file_url,
    'github_repo_url' : source_code_url,
