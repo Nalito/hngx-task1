@@ -3,7 +3,7 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route('/info', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def get_info():
         
     # Get query parameters from the request
